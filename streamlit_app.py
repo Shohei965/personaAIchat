@@ -7,8 +7,8 @@ openai.api_key = st.secrets["openai"]["OPENAI_API_KEY"]
 
 # ペルソナごとのアシスタントアイコン画像をロード
 persona_icons = {
-    "山田 太郎": Image.open("/workspaces/personaAIchat/taro.webp"),  # 山田 太郎のアイコン
-    "鈴木 綾子": Image.open("/workspaces/personaAIchat/ayako.webp")  # 鈴木 綾子のアイコン
+    "山田 太郎": Image.open("./taro.webp"),  # 山田 太郎のアイコン
+    "鈴木 綾子": Image.open("./ayako.webp")  # 鈴木 綾子のアイコン
 }
 
 # ペルソナ選択オプション
