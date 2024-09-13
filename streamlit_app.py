@@ -2,6 +2,14 @@ import streamlit as st
 import openai
 from PIL import Image
 
+image = Image.open('favicon.webp')
+st.set_page_config(
+    page_title="Persona AI Chat", 
+    page_icon=image, 
+    layout="centered", 
+    initial_sidebar_state="auto"
+    )
+
 # OpenAI APIキーをStreamlitのシークレットから読み込む
 openai.api_key = st.secrets["openai"]["OPENAI_API_KEY"]
 
