@@ -17,11 +17,11 @@ openai.api_key = st.secrets["openai"]["OPENAI_API_KEY"]
 persona_icons = {
     "ペルソナ1 | 山田 太郎": Image.open("./taro.webp"),  # 山田 太郎のアイコン
     "ペルソナ2 | 鈴木 綾子": Image.open("./ayako.webp"),  # 鈴木 綾子のアイコン
-    "商品詳細ページ閲覧のみ | 高橋 茉莉": Image.open("./mari.webp"),  # 高橋 茉莉のアイコン
-    "Amazon新規購入者 | 佐藤 啓太": Image.open("./keita.webp"),  # 佐藤 啓太のアイコン
-    "Amazonリピート購入者 | 山本 律子": Image.open("./ritsuko.webp"),  # 山本 律子のアイコン
-    "Amazonオンライン購入者 | 鈴木 麻衣": Image.open("./mai.webp"),  # 鈴木 麻衣のアイコン
-    "店舗オフライン購入者 | 佐々木 翔太": Image.open("./shota.webp")  # 佐々木 翔太のアイコン
+    "生茶 | 商品詳細ページ閲覧のみ | 高橋 茉莉": Image.open("./mari.webp"),  # 高橋 茉莉のアイコン
+    "生茶 | Amazon新規購入者 | 佐藤 啓太": Image.open("./keita.webp"),  # 佐藤 啓太のアイコン
+    "生茶 | Amazonリピート購入者 | 山本 律子": Image.open("./ritsuko.webp"),  # 山本 律子のアイコン
+    "生茶 | Amazonオンライン購入者 | 鈴木 麻衣": Image.open("./mai.webp"),  # 鈴木 麻衣のアイコン
+    "生茶 | 店舗オフライン購入者 | 佐々木 翔太": Image.open("./shota.webp")  # 佐々木 翔太のアイコン
 }
 
 # ペルソナ選択オプション
